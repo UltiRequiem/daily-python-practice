@@ -6,6 +6,7 @@ There are 3 image file names available: "full.jpg", "half.jpg", "empty.jpg".
 The output will be the name of the 5 images (without the extension), from left to right, separated by spaces.
 For example: if str is "2.36" then this should be displayed by the following image:
 
+https://github.com/UltiRequiem/daily-python-practice/blob/main/utils/media/stars.jpg
 
 Examples
 Input: "0.38"
