@@ -10,7 +10,7 @@ first_position, second_position = 1, 3
 def swapPositions(list, position_one, position_two):
 
     list[position_one], list[position_two] = list[position_two], list[position_one]
-    return list
+    return list 
 
 
 print(f"The orginal List is: {original_list}.")
