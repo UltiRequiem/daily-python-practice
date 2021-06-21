@@ -1,5 +1,6 @@
 # Daily Python Practice
 
+[![Language Grade](https://img.shields.io/lgtm/grade/python/g/UltiRequiem/daily-python-practice.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UltiRequiem/daily-python-practive/context:python)
 [![License: MIT](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/UltiRequiem/daily-python-practice/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/UltiRequiem/daily-python-practice)
 [![Code Lines](https://img.shields.io/tokei/lines/github.com/UltiRequiem/daily-python-practice?color=blue&label=Total%20Lines)](https://github.com/UltiRequiem/daily-python-practice)
