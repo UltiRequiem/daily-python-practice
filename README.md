@@ -6,4 +6,7 @@
 <a href="https://github.com/UltiRequiem/daily-python-practice"><img alt="Code style: black" src="https://img.shields.io/tokei/lines/github.com/UltiRequiem/daily-python-practice?color=blue&label=Total%20Lines"></a>
 </p>
 
-Similar to https://github.com/UltiRequiem/daily-js-practice
+## Similar to:
+
+- [UltiRequiem/daily-js-practice](https://github.com/UltiRequiem/daily-js-practice)
+- [UltiRequiem/daily-go-practice](https://github.com/UltiRequiem/daily-go-practice)
