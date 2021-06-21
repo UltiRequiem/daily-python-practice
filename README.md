@@ -6,6 +6,8 @@
 [![Python Badge](https://img.shields.io/badge/Python%20is-Cool-1f425f.svg)](https://www.python.org)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/UltiRequiem/daily-python-practice)
 
+![Python Wall](./assets/wall.png)
+
 My daily practice of python, the first language I learned.
 
 You can check the Code frequency [here](https://github.com/UltiRequiem/daily-python-practice/graphs/code-frequency).
