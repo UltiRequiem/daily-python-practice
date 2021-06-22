@@ -1,7 +1,13 @@
 # Return the largest number in the list
-number_list = [1000, 1001, 857, 1]
+
+NUMBERS = [1000, 1001, 857, 1]
+
 
 def find_largest_num(nums):
-	return max(nums)
+    return max(nums)
 
-print(find_largest_num(number_list))
+
+# find_largest_num_lambda = lambda n: max(n)
+
+if __name__ == "__main__":
+    print(find_largest_num(NUMBERS))
