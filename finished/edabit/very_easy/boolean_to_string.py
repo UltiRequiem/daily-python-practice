@@ -5,4 +5,7 @@ def bool_to_string(flag):
     return str(flag)
 
 
-print(bool_to_string(True))
+# bool_to_string_lambda = lambda x: str(x)
+
+if __name__ == "__main__":
+    print(bool_to_string(True))

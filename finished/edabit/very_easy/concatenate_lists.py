@@ -8,4 +8,6 @@ def concat(fir_list, second_list):
     return fir_list + second_list
 
 
+# concat_lambda = lambda x, y: x + y
+
 print(concat(list_one, list_two))
