@@ -1,8 +1,8 @@
 MY_LIST = []
 
-num = int(input("Enter number of elements in list: "))
+NUM = int(input("Enter number of elements in list: "))
 
-for number in range(1, num + 1):
+for number in range(1, NUM + 1):
     ele = int(input("Enter elements: "))
     MY_LIST.append(ele)
 

@@ -1,4 +1,4 @@
-my_list = [10, 11, 12, 13, 14, 15]
+MY_LIST = [10, 11, 12, 13, 14, 15]
 
 
 def reverse_list(lst):
@@ -6,4 +6,4 @@ def reverse_list(lst):
     return lst
 
 
-print(reverse_list(my_list))
+print(reverse_list(MY_LIST))

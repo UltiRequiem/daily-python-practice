@@ -1,5 +1,5 @@
 # https://www.geeksforgeeks.org/different-ways-to-clear-a-list-in-python
 
-my_list = [6, 0, 4, 1].clear()
+MY_LIST = [6, 0, 4, 1].clear()
 
-print(f"My List contain {my_list}.")
+print(f"My List contain {MY_LIST}.")

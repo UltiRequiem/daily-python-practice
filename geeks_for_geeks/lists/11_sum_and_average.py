@@ -6,9 +6,9 @@ NUMBER_LIST = [
 ]
 
 
-count = sum(NUMBER_LIST)
+COUNT = sum(NUMBER_LIST)
 
-avg = round(count / len(NUMBER_LIST), 2)
+AVERAGE = round(COUNT / len(NUMBER_LIST), 2)
 
-print("Sum of all items in the list:", count)
-print("Average of all items in the list:", avg)
+print("Sum of all items in the list:", COUNT)
+print("Average of all items in the list:", AVERAGE)

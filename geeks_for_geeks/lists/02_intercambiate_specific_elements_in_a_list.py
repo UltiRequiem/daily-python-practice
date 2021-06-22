@@ -3,16 +3,17 @@
 Given a list in Python and provided the positions of the elements, write a program to swap the two elements in the list.
 """
 
-original_list = [23, 65, 19, 90]
-first_position, second_position = 1, 3
+ORIGINAL_LIST = [23, 65, 19, 90]
+FIRST_POSITION, SECOND_POSITION = 1, 3
 
 
-def swapPositions(list, position_one, position_two):
+def swap_positions(list, position_one, position_two):
 
     list[position_one], list[position_two] = list[position_two], list[position_one]
-    return list 
+    return list
 
 
-print(f"The orginal List is: {original_list}.")
-swapped_list = swapPositions(original_list, first_position - 1, second_position - 1)
-print(f"The swapped list is: {swapped_list}.")
+SWAPPED_LIST = swap_positions(ORIGINAL_LIST, FIRST_POSITION - 1, SECOND_POSITION - 1)
+
+print(f"The orginal List is: {ORIGINAL_LIST}.")
+print(f"The swapped list is: {SWAPPED_LIST}.")
