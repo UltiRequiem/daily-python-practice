@@ -1,6 +1,11 @@
 # Return the remainder
 
+
 def remainder(x, y):
     return x % y
-	
-print(remainder(1,3))
+
+
+# remainder_lambda = lambda x, y: x % y
+
+if __name__ == "__main__":
+    print(remainder(1, 3))

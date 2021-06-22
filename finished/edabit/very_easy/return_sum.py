@@ -1,6 +1,9 @@
-def addition(a, b):
-	return a + b
+def addition(x, y):
+    return x + y
 
+
+# addition_lambda = lambda x, y: x + y
 
 # Test:
-print(addition(78,98))
+if __name__ == "__main__":
+    print(addition(78, 98))

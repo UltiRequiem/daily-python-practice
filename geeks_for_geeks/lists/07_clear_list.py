@@ -2,4 +2,5 @@
 
 MY_LIST = [6, 0, 4, 1].clear()
 
-print(f"My List contain {MY_LIST}.")
+if __name__ == "__main__":
+    print(f"My List contain {MY_LIST}.")

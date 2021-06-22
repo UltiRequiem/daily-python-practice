@@ -2,5 +2,8 @@ def hello():
     return "Hello"
 
 
+# hello_lambda = lambda: "Hello"
+
 # Test: Return string "Hello"
-print(hello())
+if __name__ == "__main__":
+    print(hello())

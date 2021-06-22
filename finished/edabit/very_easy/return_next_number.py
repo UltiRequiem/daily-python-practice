@@ -2,5 +2,8 @@ def next_number(num):
     return num + 1
 
 
+# next_number_lambda = lambda n: n + 1
+
 # Test: Print next number
-print(next_number(28))
+if __name__ == "__main__":
+    print(next_number(28))
