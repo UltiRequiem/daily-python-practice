@@ -1,6 +1,6 @@
 # Daily Python Practice
 
-[![Language Grade](https://img.shields.io/lgtm/grade/python/g/UltiRequiem/daily-python-practice.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UltiRequiem/daily-python-practive/context:python)
+[![Language Grade](https://img.shields.io/lgtm/grade/python/g/UltiRequiem/daily-python-practice.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UltiRequiem/daily-python-practice/context:python)
 [![Code Lines](https://img.shields.io/tokei/lines/github.com/UltiRequiem/daily-python-practice?color=blue&label=Total%20Lines)](https://github.com/UltiRequiem/daily-python-practice)
 [![License: MIT](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/UltiRequiem/daily-python-practice/blob/main/LICENSE)
 [![Python Badge](https://img.shields.io/badge/Python%20is-Cool-1f425f.svg)](https://www.python.org)

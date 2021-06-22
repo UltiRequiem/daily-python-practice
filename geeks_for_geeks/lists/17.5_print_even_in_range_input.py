@@ -1,5 +1,5 @@
-END = int(input("Enter the start of range: "))
+START = int(input("Enter the start of range: "))
 END = int(input("Enter the end of range: "))
 
-for num in range(END, END + 1):
+for num in range(START, END + 1):
     print(num if num % 2 == 0 else "", end=" ")
