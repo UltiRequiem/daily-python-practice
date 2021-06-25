@@ -1,4 +1,4 @@
-MY_LIST = [1, 6, 3, 5, 3, 4]
+MY_LIST = ( 1, 6, 3, 5, 3, 4 )
 ELE_TO_FIND = 5
 
 if __name__ == "__main__":

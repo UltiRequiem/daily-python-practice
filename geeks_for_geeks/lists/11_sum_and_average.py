@@ -1,9 +1,9 @@
-NUMBER_LIST = [
+NUMBER_LIST = (
     4,
     5,
     8,
     4,
-]
+)
 
 
 COUNT = sum(NUMBER_LIST)
