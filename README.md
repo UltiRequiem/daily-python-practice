@@ -8,7 +8,7 @@
 
 ![Python Wall](./assets/media/docs/wall.png)
 
-My daily practice of python, the first language I learned.
+My daily practice of Python, the first language I learned.
 
 You can check the Code frequency [here](https://github.com/UltiRequiem/daily-python-practice/graphs/code-frequency).
 
