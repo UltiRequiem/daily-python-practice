@@ -7,10 +7,13 @@ ORIGINAL_LIST = [23, 65, 19, 90]
 FIRST_POSITION, SECOND_POSITION = 1, 3
 
 
-def swap_positions(list, position_one, position_two):
+def swap_positions(a_list: list, pos_one: int, pos_two: int) -> list:
 
-    list[position_one], list[position_two] = list[position_two], list[position_one]
-    return list
+    a_list[pos_one], a_list[pos_two] = (
+        a_list[pos_two],
+        a_list[pos_one],
+    )
+    return a_list
 
 
 SWAPPED_LIST = swap_positions(ORIGINAL_LIST, FIRST_POSITION - 1, SECOND_POSITION - 1)

@@ -3,7 +3,7 @@
 NUMBERS = [4, 8, 2, 10, 15, 18]
 
 
-def clone_list(li1):
+def clone_list(li1: list) -> list:
     return li1[:]
 
 

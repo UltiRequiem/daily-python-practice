@@ -9,9 +9,9 @@ EXAMPLE = [
 ]
 
 
-def remove_empty(tuples):
-    tuples = [tupla for tupla in tuples if tupla]
-    return tuples
+def remove_empty(tuples: list) -> list:
+    return [tupla for tupla in tuples if tupla]
 
 
-print(remove_empty(EXAMPLE))
+if __name__ == "__main__":
+    print(remove_empty(EXAMPLE))
