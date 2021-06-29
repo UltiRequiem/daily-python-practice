@@ -6,4 +6,5 @@ for number in range(1, NUM + 1):
     ele = int(input("Enter elements: "))
     MY_LIST.append(ele)
 
-print("The smallest element is:{min(MY_LIST)}")
+if __name__ == "__main__":
+    print("The smallest element is:{min(MY_LIST)}")

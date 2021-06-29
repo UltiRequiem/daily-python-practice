@@ -1,3 +1,4 @@
-MY_LIST = ( 10, 58, 2, 5697, 20, 45, 99 )
+NUMBERS = (10, 58, 2, 5697, 20, 45, 99)
 
-print(f"Smallest element in the list is {min(MY_LIST)}.")
+if __name__ == "__main__":
+    print(f"Smallest element in the list is {min(NUMBERS)}.")

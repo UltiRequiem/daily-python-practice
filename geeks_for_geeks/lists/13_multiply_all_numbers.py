@@ -1,5 +1,6 @@
 from functools import reduce
 
-MY_LIST = (4, 2, 3, 29, 89)
+NUMBERS = (4, 2, 3, 29, 89)
 
-print(reduce((lambda x, y: x * y), MY_LIST))
+if __name__ == "__main__":
+    print(reduce((lambda x, y: x * y), NUMBERS))

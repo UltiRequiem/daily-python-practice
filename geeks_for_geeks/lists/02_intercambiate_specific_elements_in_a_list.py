@@ -3,20 +3,20 @@
 Given a list in Python and provided the positions of the elements, write a program to swap the two elements in the list.
 """
 
-ORIGINAL_LIST = [23, 65, 19, 90]
-FIRST_POSITION, SECOND_POSITION = 1, 3
+NUMBERS = [23, 65, 19, 90]
 
 
-def swap_positions(a_list: list, pos_one: int, pos_two: int) -> list:
+def swap_positions(lst: list, pos_one: int, pos_two: int) -> list:
+    """Intercambiate specific elements in a list"""
+    new_lst = lst.copy()
 
-    a_list[pos_one], a_list[pos_two] = (
-        a_list[pos_two],
-        a_list[pos_one],
-    )
-    return a_list
+    new_lst[pos_one], new_lst[pos_two] = lst[pos_two], lst[pos_one]
+
+    return new_lst
 
 
-SWAPPED_LIST = swap_positions(ORIGINAL_LIST, FIRST_POSITION - 1, SECOND_POSITION - 1)
+SWAPPED_LIST = swap_positions(NUMBERS, 1, 3)
 
-print(f"The orginal List is: {ORIGINAL_LIST}.")
-print(f"The swapped list is: {SWAPPED_LIST}.")
+if __name__ == "__main__":
+    print(f"The orginal List is: {NUMBERS}.")
+    print(f"The swapped list is: {SWAPPED_LIST}.")

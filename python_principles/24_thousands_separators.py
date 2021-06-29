@@ -1,4 +1,5 @@
 def format_thousands(n: int) -> str:
+    """Format Numbers"""
     return f"{n:,}"
 
 

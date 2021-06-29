@@ -2,10 +2,14 @@ NUMBERS = [1, 2, 3]
 
 
 def del_elements(ele: int, lst: list) -> list:
-    return lst.remove(ele)
+    """Remove an element from a list"""
+    new_lst = lst.copy()
+    new_lst.remove(ele)
+    return new_lst
 
+
+TEST = del_elements(3, NUMBERS)
 
 if __name__ == "__main__":
     print(f"Original list: {NUMBERS}.")
-    del_elements(2, NUMBERS)
-    print(f"Now: {NUMBERS}")
+    print(f"Now: {TEST}")

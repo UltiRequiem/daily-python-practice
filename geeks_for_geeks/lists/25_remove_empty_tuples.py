@@ -10,6 +10,7 @@ EXAMPLE = [
 
 
 def remove_empty(tuples: list) -> list:
+    """Remove empty objects"""
     return [tupla for tupla in tuples if tupla]
 
 

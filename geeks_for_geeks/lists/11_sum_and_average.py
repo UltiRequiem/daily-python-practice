@@ -1,14 +1,10 @@
-NUMBER_LIST = (
-    4,
-    5,
-    8,
-    4,
-)
+NUMBERS = (4, 5, 6)
 
 
-COUNT = sum(NUMBER_LIST)
+COUNT = sum(NUMBERS)
 
-AVERAGE = round(COUNT / len(NUMBER_LIST), 2)
+AVERAGE = round(COUNT / len(NUMBERS), 2)
 
-print("Sum of all items in the list:", COUNT)
-print("Average of all items in the list:", AVERAGE)
+if __name__ == "__main__":
+    print("Sum of all items in the list:", COUNT)
+    print("Average of all items in the list:", AVERAGE)

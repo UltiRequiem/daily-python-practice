@@ -1,4 +1,4 @@
-start, end = -4, 19
+START, END = -4, 19
 
-for num in range(start, end + 1):
+for num in range(START, END + 1):
     print(num if num >=0 else "",end=" ")
