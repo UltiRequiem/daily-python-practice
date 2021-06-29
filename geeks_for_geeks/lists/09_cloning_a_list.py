@@ -3,12 +3,13 @@
 NUMBERS = [4, 8, 2, 10, 15, 18]
 
 
-def clone_list(li1: list) -> list:
-    return li1[:]
+def clone_list(lst: list) -> list:
+    """Clone a List"""
+    return lst[:]
 
 
-def main(list_to_clone):
-    # Memory address in hex format
+def main(list_to_clone: list) -> None:
+    """Print the memory address in hex Format"""
     print("Original List:", hex(id(list_to_clone)))
     print("After Cloning:", hex(id(clone_list(list_to_clone))))
 
