@@ -18,5 +18,5 @@ def swap_positions(lst: list, pos_one: int, pos_two: int) -> list:
 SWAPPED_LIST = swap_positions(NUMBERS, 1, 3)
 
 if __name__ == "__main__":
-    print(f"The orginal List is: {NUMBERS}.")
+    print(f"The orginal list is: {NUMBERS}.")
     print(f"The swapped list is: {SWAPPED_LIST}.")

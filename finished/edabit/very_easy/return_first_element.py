@@ -1,8 +1,8 @@
 # Create a function that takes a list containing only numbers and return the first element
-NUMBERS = [1, 2, 3]
+NUMBERS = (1, 2, 3)
 
 
-def get_first_value(number_list):
+def get_first_value(number_list: tuple or list):
     return number_list[0]
 
 

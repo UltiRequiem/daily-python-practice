@@ -1,4 +1,4 @@
-def calc_age(age):
+def calc_age(age: int) -> int:
     return age * 365
 
 

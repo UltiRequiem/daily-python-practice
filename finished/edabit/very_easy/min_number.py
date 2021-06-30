@@ -1,8 +1,8 @@
 # Return the smallest number in the list
-NUMBERS = [1000, 1001, 857, 1]
+NUMBERS = (1000, 1001, 857, 1)
 
 
-def find_smallest_num(nums):
+def find_smallest_num(nums: tuple or list) -> int:
     return min(nums)
 
 

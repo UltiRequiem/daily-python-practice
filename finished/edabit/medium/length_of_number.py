@@ -1,7 +1,7 @@
 # Create a function that takes a number num and returns its length
 
 
-def number_lenght(num):
+def number_lenght(num: int) -> int:
     return len(str(num))
 
 

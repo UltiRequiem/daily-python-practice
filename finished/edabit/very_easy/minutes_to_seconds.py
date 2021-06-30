@@ -1,4 +1,4 @@
-def convert(minutes):
+def convert(minutes: int) -> int:
     return minutes * 60
 
 

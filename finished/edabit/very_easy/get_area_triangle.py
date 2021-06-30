@@ -1,5 +1,5 @@
-def tri_area(base, height):
-    return (base * height) / 2
+def tri_area(base: int, height: int) -> int:
+    return round((base * height) / 2)
 
 
 # tri_area_lambda = lambda b, h: (b * h) / 2

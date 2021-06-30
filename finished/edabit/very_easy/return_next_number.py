@@ -1,4 +1,4 @@
-def next_number(num):
+def next_number(num: int) -> int:
     return num + 1
 
 

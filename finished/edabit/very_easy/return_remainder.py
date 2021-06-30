@@ -1,7 +1,7 @@
 # Return the remainder
 
 
-def remainder(x, y):
+def remainder(x: int, y: int) -> int:
     return x % y
 
 

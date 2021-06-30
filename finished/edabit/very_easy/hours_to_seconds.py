@@ -1,4 +1,4 @@
-def how_many_seconds(hours):
+def how_many_seconds(hours: int) -> int:
     return hours * 3600
 
 

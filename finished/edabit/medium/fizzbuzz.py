@@ -1,7 +1,7 @@
 # Create a function that takes a number as an argument and returns "Fizz", "Buzz" or "FizzBuzz", and more specifications...
 
 
-def fizz_buzz(num):
+def fizz_buzz(num: int) -> str:
     if num % 3 == 0:
         return "Fizz"
     elif num % 5 == 0:

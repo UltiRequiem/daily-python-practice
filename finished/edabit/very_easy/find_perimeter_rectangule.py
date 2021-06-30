@@ -1,4 +1,4 @@
-def find_perimeter(length, width):
+def find_perimeter(length: int, width: int) -> int:
     return (length + width) * 2
 
 

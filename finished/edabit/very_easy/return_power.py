@@ -1,4 +1,4 @@
-def calculate_exponent(num, exp):
+def calculate_exponent(num: int, exp: int) -> int:
     return num ** exp
 
 

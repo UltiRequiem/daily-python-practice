@@ -1,5 +1,5 @@
-def next_edge(side1, side2):
-    return (side1 + side2) - 1
+def next_edge(side_one: int, side_two: int) -> int:
+    return (side_one + side_two) - 1
 
 
 # next_edge_lambda = lambda s_1, s_2: (s_1 + s_2) - 1

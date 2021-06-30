@@ -5,7 +5,8 @@ NUMBERS = [4, 8, 2, 10, 15, 18]
 
 def clone_list(lst: list) -> list:
     """Clone a List"""
-    return lst[:]
+    new_lst = lst.copy()
+    return new_lst
 
 
 def main(list_to_clone: list) -> None:

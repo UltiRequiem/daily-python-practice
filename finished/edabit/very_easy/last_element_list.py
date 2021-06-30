@@ -1,10 +1,10 @@
 # Returns the last item in the list
 
-WORDS = ["cat", "dog", "duck"]
+WORDS = ("cat", "dog", "duck")
 
 
-def get_last_item(my_list):
-    return my_list[-1]
+def get_last_item(lst: tuple or list):
+    return lst[-1]
 
 
 # get_last_item_lambda = lambda l: l[-1]

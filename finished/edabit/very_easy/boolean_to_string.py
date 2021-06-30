@@ -1,8 +1,8 @@
 # Create a function that takes a boolean variable flag and returns it as a string
 
 
-def bool_to_string(flag):
-    return str(flag)
+def bool_to_string(bool_value: bool) -> str:
+    return str(bool_value)
 
 
 # bool_to_string_lambda = lambda x: str(x)

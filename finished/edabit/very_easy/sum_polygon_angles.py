@@ -1,5 +1,5 @@
 # Return the total sum of internal angles (in degrees)
-def sum_polygon(n):
+def sum_polygon(n: int) -> int:
     return (n - 2) * 180
 
 
