@@ -1,8 +1,8 @@
-TEST = ["Gfg", 3, "is", 8, "Best", 10, "for", 18, "Geeks", 33]
-KEYS = ["name", "number"]
+TEST = ("Gfg", 3, "is", 8, "Best", 10, "for", 18, "Geeks", 33)
+KEYS = ("name", "number")
 
 
-def main(keys: list, lst: list) -> list:
+def main(keys: list | tuple, lst: list | tuple) -> list:
     return [{keys[0]: lst[i], keys[1]: lst[i + 1]} for i in range(0, len(lst), 2)]
 
 
