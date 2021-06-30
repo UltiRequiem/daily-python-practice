@@ -1,6 +1,7 @@
 # Python Programming Challenges
 
 Exercises from [here](https://pythonprinciples.com/challenges/).
+This is the kind of challenges that I like :)
 
 ## Useful Links
 
