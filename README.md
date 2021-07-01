@@ -12,7 +12,7 @@ My daily practice of Python, the first language I learned.
 
 You can check the Code frequency [here](https://github.com/UltiRequiem/daily-python-practice/graphs/code-frequency).
 
-## Similar to:
+## Similar to
 
 - [UltiRequiem/daily-js-practice](https://github.com/UltiRequiem/daily-js-practice)
 - [UltiRequiem/daily-go-practice](https://github.com/UltiRequiem/daily-go-practice)
