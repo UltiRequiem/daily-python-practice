@@ -1,10 +1,6 @@
-MY_LIST = []
-
 NUM = int(input("Enter number of elements in list: "))
+NUMBERS = [int(input("Enter elements:")) for _ in range(NUM)]
 
-for number in range(1, NUM + 1):
-    ele = int(input("Enter elements: "))
-    MY_LIST.append(ele)
 
 if __name__ == "__main__":
-    print("The Largest element is: {max(MY_LIST)}")
+    print(f"The Largest element is: {max(NUMBERS)}")

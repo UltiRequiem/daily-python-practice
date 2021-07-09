@@ -1,10 +1,5 @@
-MY_LIST = []
-
 NUM = int(input("Enter number of elements in list: "))
-
-for number in range(1, NUM + 1):
-    ele = int(input("Enter elements: "))
-    MY_LIST.append(ele)
+NUMBERS = [int(input("Enter elements:")) for _ in range(NUM)]
 
 if __name__ == "__main__":
-    print("The smallest element is:{min(MY_LIST)}")
+    print(f"The smallest element is:{min(NUMBERS)}")

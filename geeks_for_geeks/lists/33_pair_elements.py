@@ -2,10 +2,7 @@ TEST = [[4, 5, 6], [2, 4, 5], [6, 7, 5]]
 
 
 def main(lst: list) -> list:
-    res = []
-    for sub in lst:
-        res.append([[ele, sub[-1]] for ele in sub[:-1]])
-    return res
+    return [[[ele, sub[-1]] for ele in sub[:-1]] for sub in lst]
 
 
 if __name__ == "__main__":

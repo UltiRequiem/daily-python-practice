@@ -4,12 +4,13 @@
 NUMBERS = [12, 35, 9, 56, 24]
 
 
-def swap_last_element(list_to_swap: list) -> list:
+def swap_last_element(lst_to_swap: list) -> list:
     """Intercambiate first element with the last in the list"""
+    new_lst = lst_to_swap.copy()
 
-    list_to_swap[0], list_to_swap[-1] = list_to_swap[-1], list_to_swap[0]
+    new_lst[0], new_lst[-1] = lst_to_swap[-1], lst_to_swap[0]
 
-    return list_to_swap
+    return new_lst
 
 
 if __name__ == "__main__":

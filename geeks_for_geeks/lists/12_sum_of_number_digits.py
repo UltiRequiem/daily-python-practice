@@ -1,6 +1,6 @@
 NUMBERS = (12, 67, 98, 34)
 
-print("The original list is : " + str(NUMBERS))
+print(f"The original list is : {NUMBERS}")
 
 
 def sum_digits(array: list | tuple) -> int:

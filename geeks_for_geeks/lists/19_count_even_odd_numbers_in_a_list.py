@@ -1,4 +1,4 @@
-NUMBERS = ( 10, 21, 4, 45, 66, 93, 11 )
+NUMBERS = (10, 21, 4, 45, 66, 93, 11)
 
 ONLY_ODD = len([num for num in NUMBERS if num % 2 == 1])
 ONLY_EVEN = len(NUMBERS) - ONLY_ODD
