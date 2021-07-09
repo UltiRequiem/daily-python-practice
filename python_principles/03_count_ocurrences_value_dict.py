@@ -1,5 +1,5 @@
-def count_ocurrences(dictionary: dict, word: str | int) -> int:
-    return sum(value == word for value in dictionary.values())
+def count_ocurrences(data: dict, word: str | int) -> int:
+    return sum(value == word for value in data.values())
     # return len([p for p in statuses if statuses[p] == word])
 
 

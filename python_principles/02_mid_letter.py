@@ -1,7 +1,6 @@
 def mid(word: str | list | tuple) -> str:
     if len(word) % 2 == 0:
         return ""
-    # return word[math.floor(len(word) / 2)]
     return word[round(len(word) // 2)]
 
 
