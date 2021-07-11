@@ -11,7 +11,8 @@ EXAMPLE = [
 
 def remove_empty(tuples: list) -> list:
     """Remove empty objects"""
-    return [tupla for tupla in tuples if tupla]
+    # return [tupla for tupla in tuples if tupla]
+    return list(filter(lambda x: x, tuples))
 
 
 if __name__ == "__main__":
