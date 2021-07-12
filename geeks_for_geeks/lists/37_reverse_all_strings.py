@@ -3,6 +3,7 @@ TEXT = ("geeks", "for", "geeks", "is", "best")
 
 def revert_strings(lst: list | tuple):
     return [string[::-1] for string in lst]
+    # return list(map(lambda i: i[::-1], lst))
 
 
 if __name__ == "__main__":
