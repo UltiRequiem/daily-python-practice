@@ -1,6 +1,6 @@
 from functools import reduce
 
-TEST = [1, 3, 5, 6, 3, 5, 6, 1]
+TEST = [0, 3, 5, 6, 3, 5, 6, 1]
 # The set method clear the repeated elements
 FILTRED = set(TEST)
 
@@ -11,4 +11,4 @@ def prod(lst: list | set) -> int:
 
 if __name__ == "__main__":
     print(f"The original list is : {TEST}")
-    print(f"Duplication removal list product :{prod(FILTRED)}")
+    print(f"Duplication removal list product {prod(FILTRED)}.")
