@@ -1,8 +1,8 @@
 NUMBERS = (10, 21, 4, 45, 66, 93, 11)
 
 
-def count_odd(lst: list | tuple) -> int:
-    return len([num for num in NUMBERS if num % 2 == 1])
+def count_odd(lst: list[int] | tuple[int]) -> int:
+    return len([num for num in lst if num % 2 == 1])
 
 
 ONLY_ODD = count_odd(NUMBERS)

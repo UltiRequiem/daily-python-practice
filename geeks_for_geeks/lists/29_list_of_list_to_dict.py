@@ -1,7 +1,7 @@
 TEST = [["a", "b", 1, 2], ["c", "d", 3, 4], ["e", "f", 5, 6]]
 
 
-def dict_list(lst: list):
+def dict_list(lst: list[list]):
     return {tuple(sub[:2]): tuple(sub[2:]) for sub in lst}
 
 

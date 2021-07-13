@@ -1,7 +1,7 @@
 NUMBERS = (-10, -21, -4, -45, -66, -93, 11)
 
 
-def count_positives(lst: list | tuple):
+def count_positives(lst: list[int] | tuple[int]) -> int:
     return len([num for num in lst if num >= 1])
     # return len(list(filter(lambda x: x >= 0, lst)))
 

@@ -5,7 +5,7 @@ TEST = [0, 3, 5, 6, 3, 5, 6, 1]
 FILTRED = set(TEST)
 
 
-def prod(lst: list | set) -> int:
+def prod(lst: list[int] | set[int]) -> int:
     return reduce(lambda acum, ele: acum * ele, lst)
 
 

@@ -1,4 +1,4 @@
-EXAMPLE = [
+EXAMPLE = (
     (),
     ("ram", "15", "8"),
     (),
@@ -6,10 +6,10 @@ EXAMPLE = [
     ("krishna", "akbar", "45"),
     ("", ""),
     (),
-]
+)
 
 
-def remove_empty(tuples: list) -> list:
+def remove_empty(tuples: list| tuple) -> list:
     """Remove empty objects"""
     # return [tupla for tupla in tuples if tupla]
     return list(filter(lambda x: x, tuples))

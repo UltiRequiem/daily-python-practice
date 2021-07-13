@@ -1,7 +1,7 @@
 TEST = [[4, 5, 6], [2, 4, 5], [6, 7, 5]]
 
 
-def main(lst: list) -> list:
+def main(lst: list[list[int]]) -> list[list[list[int]]]:
     return [[[ele, sub[-1]] for ele in sub[:-1]] for sub in lst]
 
 

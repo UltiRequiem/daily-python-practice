@@ -1,7 +1,7 @@
-TEST = [[4, 1, 6], [7, 8], [4, 10, 8]]
+TEST = ([4, 1, 6], [7, 8], [4, 10, 8])
 
 
-def row_sort(lst: list | tuple) -> list:
+def row_sort(lst: list[list[int]] | tuple) -> list[list[int]]:
     return [sorted(sub, reverse=True) for sub in lst]
 
 

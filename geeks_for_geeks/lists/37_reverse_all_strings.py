@@ -1,7 +1,7 @@
 TEXT = ("geeks", "for", "geeks", "is", "best")
 
 
-def revert_strings(lst: list | tuple):
+def revert_strings(lst: list[str] | tuple[str]) -> list[str]:
     return [string[::-1] for string in lst]
     # return list(map(lambda i: i[::-1], lst))
 

@@ -1,9 +1,10 @@
 NUMBERS = (-10, 21, 4, -45, -66, 93, -11)
 
 
-def negatives(lst: list | tuple):
+def negatives(lst: list[int] | tuple[int]) -> list:
     return [num for num in lst if num < 0]
     # return list(filter(lambda x: x < 0, lst))
+
 
 NEGATIVE_LIST = negatives(NUMBERS)
 

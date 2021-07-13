@@ -1,7 +1,7 @@
 NUMBERS = [10, 20, 30, 20, 20, 30, 40, 50, -20, 60, 60, -20, -20]
 
 
-def repeated(arr: list) -> list:
+def repeated(arr: list[int]) -> list:
     size = len(arr)
     repeated = []
 
