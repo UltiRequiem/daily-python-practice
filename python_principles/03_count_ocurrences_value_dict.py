@@ -11,4 +11,4 @@ STATUSES = {
 }
 
 if __name__ == "__main__":
-    print(count_ocurrences(STATUSES, "online"))
+    print(count_ocurrences(STATUSES, 2))
