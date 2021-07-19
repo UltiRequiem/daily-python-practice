@@ -3,7 +3,7 @@ TEST = [5, 6, [], 3, [], [], 9]
 
 # res = list(filter(None, TEST))
 def clear_empty(lst: list) -> list:
-    return [ele for ele in TEST if ele]
+    return [ele for ele in lst if ele]
     # return list(filter(lambda ele: ele, lst))
 
 
