@@ -1,7 +1,5 @@
 def mid(word: str | list | tuple) -> str:
-    if len(word) % 2 == 0:
-        return ""
-    return word[round(len(word) // 2)]
+    return "" if len(word) % 2 == 0 else word[round(len(word) // 2)]
 
 
 if __name__ == "__main__":

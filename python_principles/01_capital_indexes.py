@@ -1,5 +1,5 @@
-def capital_indexes(indexes: str) -> list:
-    return [letter for letter, char in enumerate(indexes) if char.isupper()]
+def capital_indexes(string: str) -> list:
+    return [index for index, char in enumerate(string) if char.isupper()]
     # return [letter for letter in range(len(indexes)) if indexes[letter].isupper()]
 
 

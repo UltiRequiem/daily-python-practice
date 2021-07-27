@@ -3,7 +3,7 @@ Your function should return True if both parameters are integers, and False othe
 """
 
 
-def only_ints(a, b):
+def only_ints(a, b) -> bool:
     return type(a) == int and type(b) == int
 
 
