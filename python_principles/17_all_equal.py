@@ -4,7 +4,7 @@ whether all elements in the list are the same.
 """
 
 
-def all_equal(lst):
+def all_equal(lst: list) -> bool:
     # return all(one == two for one in lst for two in lst)
     return len(set(lst)) <= 1
 

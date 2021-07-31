@@ -1,4 +1,4 @@
-def consecutive(string: str, separetor: str = "1"):
+def consecutive(string: str, separetor: str = "1") -> int:
     return max([len(c) for c in string.split(separetor)])
 
 
