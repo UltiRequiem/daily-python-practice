@@ -2,6 +2,7 @@
 
 
 def fizz_buzz(num: int) -> str:
+    # return {True: "Fizz", False: "Buzz"}[num % 3 == 0]
     if num % 3 == 0:
         return "Fizz"
     elif num % 5 == 0:
