@@ -7,6 +7,10 @@ def double_letters(string: str) -> bool:
     return any((a == b for a, b in zip(string, string[1:])))
 
 
-if __name__ == "__main__":
+def tests() -> None:
     print(double_letters("hello"))
     print(double_letters("nono"))
+
+
+if __name__ == "__main__":
+    tests()

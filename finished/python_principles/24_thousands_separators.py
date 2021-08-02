@@ -3,5 +3,9 @@ def format_thousands(n: int) -> str:
     return f"{n:,}"
 
 
-if __name__ == "__main__":
+def test() -> None:
     print(format_thousands(10000000))
+
+
+if __name__ == "__main__":
+    test()

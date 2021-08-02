@@ -3,5 +3,10 @@ def capital_indexes(string: str) -> list:
     # return [letter for letter in range(len(indexes)) if indexes[letter].isupper()]
 
 
-if __name__ == "__main__":
+def tests() -> None:
     print(capital_indexes("mYtESt"))  # [1, 3, 4]
+    print(capital_indexes("owO"))
+
+
+if __name__ == "__main__":
+    tests()

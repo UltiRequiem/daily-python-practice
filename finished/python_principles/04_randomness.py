@@ -6,4 +6,9 @@ def random_number():
     return random.randint(1, 100)
 
 
-print(random_number())
+def test() -> None:
+    print(random_number())
+
+
+if __name__ == "__main__":
+    test()

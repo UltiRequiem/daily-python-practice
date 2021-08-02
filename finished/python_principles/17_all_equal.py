@@ -9,6 +9,10 @@ def all_equal(lst: list) -> bool:
     return len(set(lst)) <= 1
 
 
-if __name__ == "__main__":
+def tests() -> None:
     print(all_equal([1, 1, 1, 1]))
     print(all_equal([1, 1, 1, 3]))
+
+
+if __name__ == "__main__":
+    tests()

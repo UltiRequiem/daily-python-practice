@@ -8,6 +8,10 @@ def param_count(*args):
     return len(args)
 
 
-if __name__ == "__main__":
+def test() -> None:
     print(param_count())
     print(param_count(1, 2))
+
+
+if __name__ == "__main__":
+    test()

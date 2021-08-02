@@ -9,5 +9,9 @@ def convert(lst: list):
     # return list(map(str, lst))
 
 
-if __name__ == "__main__":
+def test() -> None:
     print(convert([1, 2, 3, 4]))
+
+
+if __name__ == "__main__":
+    test()

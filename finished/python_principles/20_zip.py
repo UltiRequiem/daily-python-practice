@@ -8,5 +8,9 @@ def zap(a: list, b: list) -> list:
     return [(a[i], b[i]) for i in range(len(a))]
 
 
-if __name__ == "__main__":
+def test() -> None:
     print(zap([0, 1, 2, 3], [5, 6, 7, 8]))
+
+
+if __name__ == "__main__":
+    test()

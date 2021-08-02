@@ -9,6 +9,10 @@ def up_down(num: int) -> tuple:
     return (num - 1, num + 1)
 
 
-if __name__ == "__main__":
+def tests() -> None:
     print(up_down(5))
     print(up_down(3))
+
+
+if __name__ == "__main__":
+    tests()
